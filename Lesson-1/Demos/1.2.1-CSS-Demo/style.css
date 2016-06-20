@@ -1,0 +1,91 @@
+
+/* Boiler plate styles, ignore these */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Roboto, sans-serif;
+    background: #eee;
+    color: #333;
+}
+
+/* End boiler plate styles */
+
+main {
+    position: relative;
+    width: 900px;
+    padding: 40px;
+    margin: 40px auto 100px auto;
+    background: #fff;
+    border-top: solid 3px #0275c8;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    font-weight: 300;
+    color: #0275c8;
+    font-size: 50px;
+    margin-top: 0;
+}
+
+.logo {
+    position: absolute;
+    right: 20px;
+    top: 30px;
+}
+
+strong {
+    color: #0275c8;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+aside {
+    float: right;
+    background: #eee;
+    padding: 20px;
+    width: 33%;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin-top: 20px;
+    text-align: center;
+    color: #999;
+}
+
+aside ul li:first-child {
+    margin-top: 0;
+}
+
+aside ul span {
+    font-weight: 300;
+    font-size: 28px;
+    color: #0275c8;
+}
+
+blockquote {
+    border-left: solid 2px #0275c8;
+    margin-left: 0;
+    padding-left: 30px;
+    color: #999;
+    font-size: 24px;
+    font-weight: 200;
+}
+
+p {
+    line-height: 1.4;
+}
+

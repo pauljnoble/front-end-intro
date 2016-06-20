@@ -1,0 +1,37 @@
+/* Boiler plate styles, ignore these */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 30px;
+    height: 100%;
+    font-family: Roboto, Arial, sans-serif;
+    background: #eee;
+    color: #333;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+/* End boiler plate styles */
+
+.item-container .item {
+    background: yellow;
+}
+
+.item {
+    background: red; 
+}
+
+.item {
+    background: blue;
+}
+
+
+
+

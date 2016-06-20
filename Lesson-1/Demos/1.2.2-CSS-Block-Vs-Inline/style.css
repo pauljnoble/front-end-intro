@@ -1,0 +1,49 @@
+/* Boiler plate styles, ignore these */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 30px;
+    height: 100%;
+    font-family: Roboto, Arial, sans-serif;
+    background: #eee;
+    color: #333;
+}
+
+/* End boiler plate styles */
+
+.demo1 {
+    padding: 20px;
+    height: 200px;
+    width: 500px;
+    border: dashed 10px #666; 
+    background: white;
+    margin: 50px;
+
+}
+
+.demo2 {
+    padding: 20px;
+    width: 400px;
+    border: dashed 1px #666; 
+}
+
+.demo3 {
+    padding: 20px;
+    border: dashed 1px #666;
+}
+
+.demo4 {
+    padding: 20px;
+    border: dashed 1px #666; 
+}
+
+.demo4 strong {
+    background: yellow;
+}
+
+
