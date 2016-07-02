@@ -1,0 +1,178 @@
+/* Layout styles */
+
+header,
+main,
+footer {
+    width: 960px;
+    margin: auto;
+    background: #FFFFFF;
+    overflow: hidden;
+}
+
+.left-column {
+    float: left;
+    width: 67%;
+    padding: 20px;
+    padding-right: 10px;
+}
+
+.right-column {
+    float: left;
+    width: 33%;
+    padding: 20px;
+    padding-left: 10px;
+}
+
+.row {
+    overflow: hidden;
+    padding-top: 20px;
+    margin-top: 20px;
+    border-top: solid 1px #ddd;
+}
+
+.row:first-child {
+    padding-top: 0;
+    margin-top: 0;
+    border-top: 0;
+}
+
+.widget {
+    padding-top: 10px;
+    margin-top: 10px;
+    border-top: solid 1px #ddd;
+}
+
+.widget:first-child {
+    padding-top: 0;
+    margin-top: 0;
+    border-top: 0;
+}
+
+.story--medium {
+    float: left;
+    width: 50%;
+}
+
+.story--large {
+    width: 100%;
+}
+
+/* Story block styles */
+
+.story p {
+    margin: 0;
+}
+
+.story h3 {
+    margin: 15px 0 5px;
+    line-height: 24px;
+    font-size: 20px;
+}
+
+.story--large h3 {
+    font-size: 30px;
+    line-height: 32px;
+}
+
+.row .story--medium:nth-child(even) {
+    padding-left: 10px;
+}
+
+.row .story--medium:nth-child(odd) {
+    padding-right: 10px;
+}
+
+/* Widget styles */
+
+.widget h4 {
+    color: #fff;
+    background: #222;
+    padding: 0 10px;
+    margin: 0 0 10px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.widget ul {
+    list-style: disc;
+    margin: 0 0 0 15px;
+    padding: 0;
+}
+
+.widget li {
+    margin: 0 0 6px;
+}
+
+
+/* Text and other styles */
+
+header,
+footer {
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'open sans', sans-serif;
+    font-weight: 800;
+}
+
+footer {
+    font-size: 14px;
+    padding: 10px 0;
+    margin-top: 30px;
+    border-top: solid 1px #222;
+    border-bottom: solid 2px #222;
+    margin-bottom: 30px;
+}
+
+nav {
+    border-bottom: solid 3px #222;
+    text-align: center;
+    border-top: solid 1px #222;
+    margin: 0 20px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 0 10px;
+    line-height: 36px;
+    font-family: 'open sans', sans-serif;
+    color: #222;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'open sans';
+    font-weight: 800;
+}
+
+p, li {
+    font-family: 'Merriweather';
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+}
+
+
+/* Boiler plate styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}

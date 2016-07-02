@@ -1,0 +1,106 @@
+main {
+    max-width: 500px;
+}
+
+.story {
+    padding: 20px;
+    margin-top: 20px;
+    background: #fff;
+    border-top: solid 1px #333;
+}
+
+.story h3 {
+    font-size: 24px;
+    line-height: 26px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.story p {
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0;
+}
+
+
+@media (min-width: 768px) {
+    main {
+        max-width: 960px;
+    }
+
+    .story {
+        float: left;
+        width: 33%;
+        border-right: solid 1px #ddd;
+    }
+}
+
+@media (min-width: 1200px) {
+    main {
+        max-width: 1100px;
+    }
+
+    .story {
+        width: 25%;
+    }
+
+    .header {
+        float: left;
+        width: 25%;
+        padding-right: 20px;
+        border-top: solid 1px #333;
+        margin-top: 20px;
+    }
+
+}
+
+/* Boiler plate styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #222;
+    background: #EEEEEE;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+main {
+    margin: auto;
+    padding: 0 10px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+
+h1 {
+    background: #222;
+    color: #FFF;
+    margin: 0;
+    padding: 10px 20px;
+    font-size: 22px;
+}
+
+p {
+    font-family: 'Merriweather', Georgia, serif;
+    font-weight: 300;
+}

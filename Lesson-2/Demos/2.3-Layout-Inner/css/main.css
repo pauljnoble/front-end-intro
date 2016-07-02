@@ -1,0 +1,100 @@
+/*.row {
+    padding-top: 20px;
+    margin-top: 20px;
+    border-top: solid 1px #ddd;
+}*/
+
+/*.row:first-child {
+    padding-top: 0;
+    margin-top: 0;
+    border-top: 0;
+}*/
+
+/*.widget {
+    padding-top: 10px;
+    margin-top: 10px;
+    border-top: solid 1px #ddd;
+}*/
+
+/*.widget:first-child {
+    padding-top: 0;
+    margin-top: 0;
+    border-top: 0;
+}*/
+
+/*.story--medium {
+    float: left;
+    width: 50%;
+}*/
+
+/*.story--large {
+    width: 100%;
+}
+*/
+
+
+/* Layout styles */
+
+header,
+main {
+    width: 960px;
+    margin: auto;
+    border: solid 4px #ddd;
+}
+
+header {
+    height: 100px;
+}
+
+main {
+    background: #ccc;
+}
+
+.left-column {
+    height: 100px;
+    width: 67%;
+    border: solid 4px #4ba7e8;
+}
+
+.right-column {
+    height: 100px;
+    width: 33%;
+    border: solid 4px #ffae1a;
+}
+
+.left-column,
+.right-column {
+    float: left;
+}
+
+main {
+    overflow: hidden;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* Boiler plate styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
