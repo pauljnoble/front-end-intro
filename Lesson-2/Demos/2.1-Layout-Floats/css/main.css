@@ -1,26 +1,34 @@
 /* Layout styles */
 
 main {
-    max-width: 960px;
+    max-width: 1400px;
     margin: auto;
 }
 
-/*.my-parent {
-    border: solid 4px #4ba7e8;
-}*/
+.my-parent {
+    border: solid 4px grey;
+}
 
-/*.my-div {
+.my-div-left {
     border: solid 4px #4ba7e8;
     padding: 20px;
-}*/
+    width: 50%;
+    float: left;
+}
 
+.my-div-right {
+    border: solid 4px red;
+    padding: 20px;
+    width: 300px;
+    float: right;
+}
 
-/*.clearfix::after {
+.clearfix::after {
     content: "";
     display: block;
     clear: both;
 }
-*/
+
 
 /* Boiler plate styles */
 

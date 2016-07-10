@@ -1,47 +1,47 @@
 /* Layout styles */
 
-/*header,
+header,
 main {
     width: 960px;
     margin: auto;
     border: solid 4px #ddd;
-}*/
+}
 
-/*header {
+header {
     height: 100px;
-}*/
+}
 
-/*main {
+main {
     background: #ccc;
 }
-*/
 
-/*.left-column {
+
+.left-column {
     height: 100px;
     width: 67%;
     border: solid 4px #4ba7e8;
-}*/
+}
 
-/*.right-column {
+.right-column {
     height: 100px;
     width: 33%;
     border: solid 4px #ffae1a;
-}*/
+}
 
-/*.left-column,
+.left-column,
 .right-column {
     float: left;
-}*/
+}
 
 /*main {
     overflow: hidden;
 }*/
 
-/*.clearfix::after {
+.clearfix::after {
     content: "";
     display: block;
     clear: both;
-}*/
+}
 
 
 /* Boiler plate styles */

@@ -1,8 +1,13 @@
-/*.row {
+.row {
     padding-top: 20px;
     margin-top: 20px;
-    border-top: solid 1px #ddd;
-}*/
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
 
 /*.row:first-child {
     padding-top: 0;
@@ -22,15 +27,17 @@
     border-top: 0;
 }*/
 
-/*.story--medium {
+.story {
     float: left;
     width: 50%;
-}*/
+    background-color: white;
+}
 
-/*.story--large {
+.story--big {
+    float: none;
     width: 100%;
 }
-*/
+
 
 
 /* Layout styles */
@@ -51,7 +58,7 @@ main {
 }
 
 .left-column {
-    height: 100px;
+    /*height: 100px;*/
     width: 67%;
     border: solid 4px #4ba7e8;
 }
