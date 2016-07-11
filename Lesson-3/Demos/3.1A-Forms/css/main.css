@@ -1,0 +1,32 @@
+
+
+/* Boiler plate styles */
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    margin: auto;
+    max-width: 600px;
+    margin-top: 100px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #222;
+    background-color: #eee;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
