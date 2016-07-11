@@ -58,8 +58,7 @@ Series of lessons introducing front-end basics.
 
 3.3 CSS UI elements
   - Inputs and forms
-  - Widgets: carousels, accordions and more
-  - 
+  - Carousel widget
 
 
 
