@@ -1,0 +1,47 @@
+/* Layout styles */
+
+main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.my-parent {
+    /*position: relative;*/
+    border: solid 4px grey;
+    margin-top: 100px;
+}
+
+.my-div-first {
+    position: static;
+    border: solid 4px #4ba7e8;
+}
+
+.my-div-last {
+    position: absolute;
+    top: 50px;
+    border: solid 4px #f74e4e;
+}
+
+
+/* Boiler plate styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+

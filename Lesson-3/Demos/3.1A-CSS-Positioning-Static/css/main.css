@@ -1,0 +1,45 @@
+/* Layout styles */
+
+main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Example One */
+
+.my-parent {
+    border: solid 4px grey;
+}
+
+.my-div-first {
+    position: static;
+    border: solid 4px #4ba7e8;
+}
+
+.my-div-last {
+    border: solid 4px #f74e4e;
+}
+
+
+/* Boiler plate styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+

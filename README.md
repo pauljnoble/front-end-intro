@@ -60,5 +60,25 @@ Series of lessons introducing front-end basics.
   - Inputs and forms
   - Carousel widget
 
+### Part 4  CSS Transitions + Animation
 
+4.1 Introduction
+  - CSS typography / UI revision
+  - A brief history of animation
+  - Why animation - experience and accessibility
+  - Why not animation?
+
+4.2 CSS Transitions
+  - Transition basics
+  - What can / can't be animated
+  - Tweening
+  - Poor performance
+
+4.3 CSS Transformations
+  - 2D Transforms
+  - 3D Transforms
+  - Performance
+
+4.4 CSS Keyframe Animation
+  - Keyframe multi-step example
 

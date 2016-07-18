@@ -1,0 +1,131 @@
+/* Layout styles */
+
+main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* No animations */
+
+/* For demo purposes we're using !important which over-rides all properties regardless of 
+   specificity. Never use in production unless absolutely necessary! Important! */
+   
+.new-item { 
+    opacity: 1 !important; 
+    transform: none !important; 
+    max-height: none !important 
+}
+
+* { 
+    animation: none !important; 
+}
+
+
+/* Complex example for demonstration only - you don't have to understand all this! */
+
+body { 
+    background: #eeeeee;
+    color:#F4F4F4;
+    font-weight:600; 
+}
+
+section {
+    width:40%;
+    margin: 4em auto;
+    overflow:hidden;
+}
+
+ul {
+    list-style:none;
+    margin:0 0 .5em 0;
+    padding:0;
+}
+
+li {
+    text-transform: uppercase;
+    padding:10px 10px;
+    margin:0;
+    color: #fff;
+    display:block;
+    background:#141619;
+    border-bottom: 1px solid rgba(252,252,252,0.1);
+}   
+
+button {
+    width:100%;
+    padding: .75em 0;
+    float: left;
+    border: none;
+    text-transform: uppercase;
+    color:white;
+    background: #419FE8;
+}
+
+.remove {background: #A6365A;}
+
+.new-item {
+    max-height: 0;
+    opacity: 0;
+    transform: translateX(-600px);
+    animation: 
+        openList 0.2s forwards,
+        itemEnter 0.3s 0.2s forwards,
+        itemHighlight 2s 0.2s;
+}
+
+.old-item {
+    animation: 
+         itemExit 0.75s $easeInBackCustom forwards;
+}
+
+@keyframes openList {
+    to { 
+        max-height: 40px;
+    }
+}
+@keyframes itemEnter {
+    to { 
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes itemExit {
+    15%, 30% {
+        background: #A6365A;
+        opacity:1;
+        transform:translateX(0);};
+    100% {
+        opacity:0;
+        transform: translateX(600px);
+    }
+}
+
+@keyframes itemHighlight {
+    5%, 60%{ background: #419FE8;}
+    100% {background:#141619;}
+}
+
+
+/* Boiler plate styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
