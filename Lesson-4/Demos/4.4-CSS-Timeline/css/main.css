@@ -16,16 +16,15 @@
     border-radius: 50%;
 }
 
-/*.animation {
-    animation-name: move-on-path;
+.animation {
+    animation-name: move;
     animation-duration: 6s;
-    animation-delay: 1s;
-    animation-timing-function: linear;
+    animation-timing-function: ease-out;
     animation-iteration-count: infinite;
 }
 
 
-@keyframes move-on-path {
+@keyframes move {
     0% {
         transform: translateY(0);
     }
@@ -44,7 +43,7 @@
     80% {
         transform: translateY(200px) translateX(-400px);
     }
-} */
+} 
 
 
 
