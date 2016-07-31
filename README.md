@@ -82,3 +82,23 @@ Series of lessons introducing front-end basics.
 4.4 CSS Keyframe Animation
   - Keyframe multi-step example
 
+### Part 5  
+
+5.1 Introdction
+  - CSS Animation revision
+  - A brief history of web development
+
+5.2 Front-end / back-end
+  - Front-end development
+  - Back-end development
+
+5.3 Dev team: Agile, JIRA
+  - Agile
+  - Jira
+
+5.4 Technical methodoglogy
+  - Git
+  - Stash
+
+
+

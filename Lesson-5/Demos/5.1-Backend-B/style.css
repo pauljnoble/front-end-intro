@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    background-color: #eee;
+}
+
+.container {
+    padding: 50px 100px;
+    max-width: 600px;
+    border: solid 1px #ddd;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.story {
+    border-bottom: solid 1px #ddd;
+}
+
+.story:last-child {
+    border-bottom: 0;
+}
+
+h1 {
+    font-family: serif;
+    line-height: 1;
+    margin: 20px 0 10px;
+}
+
+a {
+    color: #0075ce;
+}
