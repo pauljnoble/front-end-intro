@@ -100,5 +100,29 @@ Series of lessons introducing front-end basics.
   - Git
   - Stash
 
+### Part 6
+
+6.1 Introduction
+  - Development, agile, Git revision
+  - A brief history of web infrastructure
+
+6.2 CI (Continuous Integration)
+  - What is CI?
+  - Agile and CI
+  - The deployment pipeline
+  - Blue / Green deployment
+
+6.3 CDN / Infrastructure
+  - What is a CDN?
+  - Origin, Client, Server, Edge
+  - Infrastructure topology
+  - Benefits of a CDN
+  - Limitations of a CDN
+
+6.4 Image Resizer
+  - Handling media
+
+
+
 
 

@@ -11,11 +11,84 @@ body {
 }
 
 .container {
-    padding: 50px 100px;
-    max-width: 600px;
+    padding: 30px 30px;
+    max-width: 1000px;
     border: solid 1px #ddd;
     margin: auto;
     margin-top: 100px;
     background-color: #fff;
     border-radius: 3px;
+}
+
+.story {
+    max-width: 320px;
+    background-color: white;
+    margin: auto;
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+.story__content {
+    position: relative;
+    padding: 20px;
+}
+
+h4 {
+    margin: 0 0 5px;
+}
+
+p {
+    display: none;
+}
+
+.story__media {
+    float: left;
+    max-width: 80px;
+    margin-right: 20px;
+}
+
+@media screen and (min-width: 500px) {
+    .story {
+        max-width: 500px;
+    }
+
+    .story__content p {
+        display: block;
+    }
+
+    .story__media {
+        max-width: 250px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .story {
+        max-width: 700px;
+    }
+
+    .story__media {
+        max-width: none;
+        float: none;
+        margin-right: 0;
+    }
+
+    h4 {
+        position: absolute;
+        font-size: 32px;
+        margin: 10px 0 2px;
+        background: rgba(0, 0, 0, 0.8);
+        height: 60px;
+        display: inline-block;
+        top: -70px;
+        left: 0;
+        color: white;
+        padding: 10px 30px;
+    }
+
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
 }
