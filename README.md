@@ -123,6 +123,11 @@ Series of lessons introducing front-end basics.
   - Handling media
 
 
+### Suggested Topics
+- Asset prep (naming etc, kebab case)
+- Video
+- 
+
 
 
 
