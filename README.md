@@ -24,7 +24,6 @@ Series of lessons introducing front-end basics.
     - Block / Inline
   - What is Javascript
 
-
 ### Part 2  CSS Layouts + Responsive Design
 
 2.1 Introduction
@@ -82,7 +81,7 @@ Series of lessons introducing front-end basics.
 4.4 CSS Keyframe Animation
   - Keyframe multi-step example
 
-### Part 5  
+### Part 5  Web Development Processes
 
 5.1 Introdction
   - CSS Animation revision
@@ -100,7 +99,7 @@ Series of lessons introducing front-end basics.
   - Git
   - Stash
 
-### Part 6
+### Part 6  Infrastructure
 
 6.1 Introduction
   - Development, agile, Git revision
@@ -121,13 +120,52 @@ Series of lessons introducing front-end basics.
 
 6.4 Image Resizer
   - Handling media
+  - Picture element
 
+### Part 7  Miscellany
 
-### Suggested Topics
-- Asset prep (naming etc, kebab case)
-- Video
-- 
+7.1 Introduction to the miscellany
+  - Revision
 
+7.2 Video on the web
+  - A brief history
+  - Standards and vendor formats
+  - Brightcove player
 
+7.3 Vector Images
+  - Legacy formats
+  - SVG
+  - Animating SVGs
+  - Icon web fonts vs SVGs
+  - Assets
 
+7.3 Tracking + SEO
+  - Why track?
+  - Why SEO?
+  - Ominture click tracking
+  - Semantic documents for SEO
 
+### Part 8  In Conclusion
+
+8.1 Bringing it all together
+  - Introduction to the summary
+
+8.2 HTML Revision
+  - In a nutshell
+  - Attributes
+  - Picture, Video, Audio
+
+8.3 CSS Revision
+  - Basics
+  - Layouts
+  - Responsive Design
+  - Typography
+  - Animation
+
+8.3 Development Practices
+  - Front-end / Back-end
+  - Agile, Git
+
+8.4 Infrastructure
+  - Akamai / cache
+  - Continuous Integration

@@ -10,7 +10,7 @@ main {
 /* For demo purposes we're using !important which over-rides all properties regardless of 
    specificity. Never use in production unless absolutely necessary! Important! */
    
-.new-item { 
+/*.new-item { 
     opacity: 1 !important; 
     transform: none !important; 
     max-height: none !important 
@@ -20,7 +20,7 @@ main {
     animation: none !important; 
 }
 
-
+*/
 /* Complex example for demonstration only - you don't have to understand all this! */
 
 body { 

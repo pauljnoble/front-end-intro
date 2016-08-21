@@ -9,7 +9,7 @@
 }
 
 .rotate {
-    transform: rotate(15deg);
+    transform: rotate(-20deg);
 }
 
 .scale {

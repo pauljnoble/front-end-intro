@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', 'Helvetica', arial;
+    background-color: #eee;
+}
+
+.container {
+    padding: 30px 30px;
+    max-width: 680px;
+    border: solid 1px #ddd;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #fff;
+    border-radius: 3px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 200;
+    color: #4992f3;
+}
+
+svg {
+    transform: scale(1,-1);
+    height: 250px;
+}
+
+svg text {
+    transform: scale(1,-1);
+    text-anchor: middle;
+    font-size: 14px;
+}
+
+.control {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.control a {
+    display: inline-block;
+    color: #aaa;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 5px 0;
+}
+
+.control a.active {
+    color: #222;
+    border-bottom: solid 1px #ccc;
+}
+
+
+.gold, .gold + text {
+    fill: gold;
+    text-fill: gold;
+}
+
+.silver, .silver + text {
+    fill: silver;
+}
+
+.bronze, .bronze + text {
+    fill: #cd7f32;
+}
+
+svg rect {
+    transition: all 1s;
+}
+
+.gold {
+    transition-delay: 0;
+}
+
+.silver {
+    transition-delay: 0.1s;
+}
+
+.bronze {
+    transition-delay: 0.2s;
+}

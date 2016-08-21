@@ -44,16 +44,16 @@
     transform: translateZ(100px);
 }
 
+.far {
+    transform: translateZ(-200px);
+}
+
 .close.rotated {
     transform: translateZ(100px) rotateX(20deg) rotateY(20deg);
 }
 
 .rotated-y {
     transform: rotateY(40deg);
-}
-
-.far {
-    transform: translateZ(-200px);
 }
 
 .far.rotated {

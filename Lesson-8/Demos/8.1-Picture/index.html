@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Responsive Images</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="story">
+            <div class="story__media">
+
+                <picture>
+                    <source srcset="images/image-3.jpg" media="(min-width: 1024px)">
+                    <source srcset="images/image-2.jpg" media="(min-width: 500px)">
+                    <source srcset="images/image-1.jpg">
+                    <img src="images/image-3.jpg" alt="Default">
+                </picture>
+
+            </div>
+            <div class="story__content">
+                <h4>Cyclists set new records in Rio</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore.</p>
+            </div>
+        </div>
+       
+        <!-- <div class="container demo">
+            <h3>Original image</h3>
+            <img src="images/image-3.jpg" alt="image 3">
+            <h3>Images created by image resizer</h3>
+            <img src="images/image-1.jpg" alt="image 1">
+            <img src="images/image-2.jpg" alt="image 2">
+            <img src="images/image-3.jpg" alt="image 3">
+        </div> -->
+    </body>
+</html>

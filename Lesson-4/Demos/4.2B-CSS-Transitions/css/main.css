@@ -9,8 +9,8 @@
 }
 
 .cant-animate:hover {
-    height: auto;
-    /*height: 200px;*/
+    /*height: auto;*/
+    height: 200px;
 }
 
 

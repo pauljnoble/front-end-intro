@@ -8,13 +8,13 @@
     color: blue;
 }
 
-/*
+
 .color {
     transition-property: color;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out; 
 }
-*/
+
 
 
 .size {
@@ -30,11 +30,11 @@
     height: 400px;
 }
 
-/*.size {
+.size {
     transition-property: height width;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out; 
-}*/
+}
 
 
 .opacity {
@@ -48,11 +48,11 @@
     opacity: 0.3;
 }
 
-/*.opacity {
+.opacity {
     transition-property: opacity;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out; 
-}*/
+}
 
 
 .all {
@@ -72,12 +72,12 @@
     color: blue;
 }
 
-/*.all {
+.all {
     transition-property: all;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out; 
 }
-*/
+
 
 
 
